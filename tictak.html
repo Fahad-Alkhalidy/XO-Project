@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tictak game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body id="The_Game_Body">
+    <nav>
+      <h1 id="New_Game" class="options">New_Game</h1>
+      <h1 id="score" class="options">Score</h1>
+      <h1 id="instructions" class="options">instructions</h1>
+    </nav>
+    <div class="container">
+      <ul>
+        <li id="first" class="list"></li>
+        <li id="second" class="list"></li>
+        <li id="third" class="list"></li>
+
+        <li id="fourth" class="list"></li>
+        <li id="fifth" class="list"></li>
+        <li id="sixth" class="list"></li>
+
+        <li id="seventh" class="list"></li>
+        <li id="eighth" class="list"></li>
+        <li id="ninth" class="list"></li>
+      </ul>
+      <div class="The_Score"></div>
+    </div>
+    <div class="Show_Score">
+      <span id="closeScoreButton" class="closeButton">&times</span>
+      <div id="Div_Player_Score">
+        <ul class="Players_Score">
+          Player 1 (X)
+          <li class="Player_List">
+            First game: <span id="XFirstGame" class="Num_Score"></span>
+          </li>
+          <li class="Player_List">
+            Second game: <span id="XSecondGame" class="Num_Score"></span>
+          </li>
+          <li class="Player_List">
+            Third game: <span id="XThirdGame" class="Num_Score"></span>
+          </li>
+          <li class="Player_List">
+            Fourth game: <span id="XFourthGame" class="Num_Score"></span>
+          </li>
+        </ul>
+        <ul class="Players_Score">
+          Player 2 (O)
+          <li class="Player_List">
+            First game: <span id="OFirstGame" class="Num_Score"></span>
+          </li>
+          <li class="Player_List">
+            Second game: <span id="OSecondGame" class="Num_Score"></span>
+          </li>
+          <li class="Player_List">
+            Third game: <span id="OThirdGame" class="Num_Score"></span>
+          </li>
+          <li class="Player_List">
+            Fourth game: <span id="OFourthGame" class="Num_Score"></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="Div_Instructions">
+      <span id="closeInstructionsButton" class="closeButton">&times</span>
+      <img id="rules" src="game instructions.png" />
+    </div>
+  </body>
+</html>
